@@ -23,7 +23,7 @@ void factorAndDisplay();
 void factorAndSave();
 void factorAndVector();
 
-int main() {
+int main(int argc, char* argv[]) {
 	do {
 		switchMenu();
 		switch (selection) {
